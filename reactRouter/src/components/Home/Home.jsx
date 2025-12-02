@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
-        <div className="mx-auto w-full max-w-7xl">
-            <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
+        <div className="mx-auto w-full max-w-7xl ">
+        <div className="mx-auto w-full flex flex-col sm:py-20 py-10 justify-evenly sm:space-y-20 space-y-10">
+        <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16 bg-linear-to-r from-yellow-200 via-yellow-300 to-yellow-400">
                 <div className="relative z-10 max-w-7xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
                         <h2 className="text-4xl font-bold sm:text-5xl">
@@ -31,13 +32,15 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+                <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full mx-12 ">
+                    <img className="w-96" src="https://gofloaters.com/work-from-anywhere-toolkit/assets/images/remote2.png" alt="image1" />
                 </div>
             </aside>
+        </div>
+            
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
+                <img className="sm:w-96 w-48" src="https://globalvoices.org/wp-content/uploads/2021/05/Remote1-1-800x465.png" alt="image2" />
             </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
